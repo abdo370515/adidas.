@@ -1,0 +1,40 @@
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.product img{
+    width: 70%;
+}
+.product{
+    width: 70%;
+    height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid 2px rgb(206, 206, 206);
+    border-radius:50px;
+    gap: 4rem;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.product button{
+    width: 7rem;
+    height: 2rem;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.548);
+    color: azure;
+}
+.product a{
+     color: aliceblue;
+     text-decoration: none;
+
+}
